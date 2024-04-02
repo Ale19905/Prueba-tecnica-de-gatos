@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  background-color: rgba(0, 0, 0, 0.79);
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn{
+  border-Radius: 5px;
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: #fff;
+  border: 'none';
+  transition: .2s;
+}
+
+
+.btn:hover{
+  border-style: solid;
+  border-color: rgb(43, 43, 205);
+}
